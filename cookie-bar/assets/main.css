@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+/*
+ * Common HTML elements
+ */
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #ff5722;
+	text-decoration: none;
+}
+
+p {
+	margin: 10px 0;
+}
+small {
+	color: #f9f9f9;
+	font-weight: bold;
+	right: 40px;
+	position: absolute;
+}
+
+small:active,
+small:focus,
+small:hover {
+	color: #ff5722;
+	cursor: pointer;
+}
+/*
+ * Common CSS selectors
+ */
+
+.cookieBar {
+	bottom: 0;
+    height: 40px;
+	opacity: 1;
+	position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.light {
+	background-color: #f9f9f9;
+	box-shadow: 0px 1px 5px #3F51B5;
+	color: #27358b;
+}
+
+.light small {
+	color: #27358b;
+}
+
+.light small:active,
+.light small:focus,
+.light small:hover {
+	color: #ff5722;
+}
+
+.dark {
+	background-color: #27358b;
+	color: #f9f9f9;
+}
+
+.gray {
+	background-color: #9e9e9e;
+	box-shadow: 0px 1px 5px #3F51B5;
+	color: #f9f9f9;
+}
+
+.gray a {
+	color: #3f51b5;
+}
+
+.gray small:active,
+.gray small:focus,
+.gray small:hover {
+	color: #3f51b5;
+}
+.animate {
+	transition: all .4s ease-out;
+}
+
+.closed {
+	bottom: -40px;
+	opacity: 0;
+}
